@@ -4,6 +4,114 @@
   
   
   <entry>
+    <title>vim-cheatsheet</title>
+    <link href="/2021/02/25/vim-cheatsheet/"/>
+    <url>/2021/02/25/vim-cheatsheet/</url>
+    
+    <content type="html"><![CDATA[<h1 id="vim-cheatsheet"><a href="#vim-cheatsheet" class="headerlink" title="vim cheatsheet"></a>vim cheatsheet</h1><ul><li><p><code>da&quot;</code> delete contents between <code>&quot;()&quot;</code> <code>di&quot;</code>  delete ONLY the contents inside of “</p><p>  src: <a href="https://stackoverflow.com/questions/36843099/in-vim-how-can-i-delete-everything-between-quotes-including-the-quotes#:~:text=Keep%20your%20cursor%20in%20first,inside%20quotes%20and%20quotes%20too">https://stackoverflow.com/questions/36843099/in-vim-how-can-i-delete-everything-between-quotes-including-the-quotes#:~:text=Keep your cursor in first,inside quotes and quotes too</a>!</p></li><li><p><code>gf</code> : jump to file</p></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>cheatsheet</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>cheatsheet</tag>
+      
+      <tag>vim</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>linux-cheatsheet</title>
+    <link href="/2021/02/25/linux-cheatsheet/"/>
+    <url>/2021/02/25/linux-cheatsheet/</url>
+    
+    <content type="html"><![CDATA[<h1 id="linux-cheatsheet"><a href="#linux-cheatsheet" class="headerlink" title="linux cheatsheet"></a>linux cheatsheet</h1><ul><li>delete specific files in sub directories  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">find <span class="hljs-string">&quot;dir&quot;</span> -name <span class="hljs-string">&quot;*.png&quot;</span> | xargs rm<br></code></pre></td></tr></table></figure>  src: <a href="https://blog.csdn.net/weixin_37707670/article/details/109429816">https://blog.csdn.net/weixin_37707670/article/details/109429816</a></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>cheatsheet</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>linux</tag>
+      
+      <tag>cheatsheet</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>python-cheatsheet</title>
+    <link href="/2021/02/25/python-cheatsheet/"/>
+    <url>/2021/02/25/python-cheatsheet/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Python-Cheatsheet"><a href="#Python-Cheatsheet" class="headerlink" title="Python Cheatsheet"></a>Python Cheatsheet</h1><ul><li><code>print(f&#39;countdown[&#123;name&#125;]:&#123;num&#125;&#39;)</code>, f’ format string, {name} means fill name here</li><li><code>__call__()</code> method, 类似C中（）重载， <code>类名（）</code> 调用这个函数</li><li><code>*a,**b</code><br>  <img src="Untitled.png"></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>cheatsheet</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>cheatsheet</tag>
+      
+      <tag>python</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Deploy hexo blog to a vps server</title>
+    <link href="/2021/02/23/vps-hexo/"/>
+    <url>/2021/02/23/vps-hexo/</url>
+    
+    <content type="html"><![CDATA[<p>TODO</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>tech</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>vps</tag>
+      
+      <tag>hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Things about Archlinux</title>
     <link href="/2021/02/19/archlinux/"/>
     <url>/2021/02/19/archlinux/</url>
@@ -33,7 +141,7 @@
     <link href="/2021/02/19/hexo/"/>
     <url>/2021/02/19/hexo/</url>
     
-    <content type="html"><![CDATA[<h1 id="Steps-on-using-Hexo-to-build-a-blog"><a href="#Steps-on-using-Hexo-to-build-a-blog" class="headerlink" title="Steps on using Hexo to build a blog"></a>Steps on using Hexo to build a blog</h1><h2 id="1-Install-nodejs"><a href="#1-Install-nodejs" class="headerlink" title="1. Install nodejs"></a>1. Install nodejs</h2><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cmake">sudo apt <span class="hljs-keyword">install</span> nodejs<br></code></pre></td></tr></table></figure><h2 id="2-npm-change-source"><a href="#2-npm-change-source" class="headerlink" title="2. npm change source"></a>2. npm change source</h2><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">sudo npm install -g cnpm --registry=https:<span class="hljs-regexp">//</span>registry.npm.taobao.org <span class="hljs-comment"># taobao source </span><br></code></pre></td></tr></table></figure><h2 id="3-Install-hexo-from-cnpm-source"><a href="#3-Install-hexo-from-cnpm-source" class="headerlink" title="3. Install hexo from cnpm source"></a>3. Install hexo from cnpm source</h2><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs avrasm">sudo cnpm install -g hexo-<span class="hljs-keyword">cli</span><br>hexo -v <span class="hljs-meta"># check whether installed</span><br></code></pre></td></tr></table></figure><h2 id="4-Initialize-hexo-directory"><a href="#4-Initialize-hexo-directory" class="headerlink" title="4. Initialize hexo directory"></a>4. Initialize hexo directory</h2><figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs dos"><span class="hljs-built_in">mkdir</span> hexo-blog &amp;&amp; <span class="hljs-built_in">cd</span> hexo-blog<br>sudo hexo init<br></code></pre></td></tr></table></figure><h2 id="5-Some-hexo-commands"><a href="#5-Some-hexo-commands" class="headerlink" title="5. Some hexo commands"></a>5. Some hexo commands</h2><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs verilog">hexo s # start hexo service locally<br>hexo clean # clean files<br>hexo g # <span class="hljs-keyword">generate</span> hexo files, <br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="Steps-on-using-Hexo-to-build-a-blog"><a href="#Steps-on-using-Hexo-to-build-a-blog" class="headerlink" title="Steps on using Hexo to build a blog"></a>Steps on using Hexo to build a blog</h1><h2 id="1-Install-nodejs"><a href="#1-Install-nodejs" class="headerlink" title="1. Install nodejs"></a>1. Install nodejs</h2><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cmake">sudo apt <span class="hljs-keyword">install</span> nodejs<br></code></pre></td></tr></table></figure><h2 id="2-npm-change-source"><a href="#2-npm-change-source" class="headerlink" title="2. npm change source"></a>2. npm change source</h2><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">sudo npm install -g cnpm --registry=https:<span class="hljs-regexp">//</span>registry.npm.taobao.org <span class="hljs-comment"># taobao source </span><br></code></pre></td></tr></table></figure><h2 id="3-Install-hexo-from-cnpm-source"><a href="#3-Install-hexo-from-cnpm-source" class="headerlink" title="3. Install hexo from cnpm source"></a>3. Install hexo from cnpm source</h2><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs avrasm">sudo cnpm install -g hexo-<span class="hljs-keyword">cli</span><br>hexo -v <span class="hljs-meta"># check whether installed</span><br></code></pre></td></tr></table></figure><h2 id="4-Initialize-hexo-directory"><a href="#4-Initialize-hexo-directory" class="headerlink" title="4. Initialize hexo directory"></a>4. Initialize hexo directory</h2><figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs dos"><span class="hljs-built_in">mkdir</span> hexo-blog &amp;&amp; <span class="hljs-built_in">cd</span> hexo-blog<br>sudo hexo init<br></code></pre></td></tr></table></figure><h2 id="5-Some-hexo-commands"><a href="#5-Some-hexo-commands" class="headerlink" title="5. Some hexo commands"></a>5. Some hexo commands</h2><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs verilog">hexo s # start hexo service locally<br>hexo clean # clean files<br>hexo g # <span class="hljs-keyword">generate</span> hexo files, <br></code></pre></td></tr></table></figure><h2 id="6-hexo-cheatsheet"><a href="#6-hexo-cheatsheet" class="headerlink" title="6. hexo cheatsheet"></a>6. hexo cheatsheet</h2><p>hexo posts add photos</p><p>src: <a href="https://blog.csdn.net/m0_47415152/article/details/108606956?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-2&amp;spm=1001.2101.3001.4242">https://blog.csdn.net/m0_47415152/article/details/108606956?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-2&amp;spm=1001.2101.3001.4242</a></p>]]></content>
     
     
     <categories>
